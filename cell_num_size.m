@@ -3,7 +3,7 @@ function cell_num_size
 % wildtype cell number
 wt=[];
 for tt=1:94
-    str1='video4sup\';
+    str1='video4sup\'; %read the file name
     str2=int2str(tt);
     str3='.jpg';
     SC=[str1,str2,str3];

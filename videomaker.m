@@ -2,7 +2,7 @@
 v=VideoWriter('movie2.avi','Uncompressed AVI');
 open(v);
 for tt=1:93
-    str1='video4sup\';
+    str1='video4sup\';%read the filename
     str2=int2str(tt);
     str3='.jpg';
     SC=[str1,str2,str3];

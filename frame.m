@@ -1,6 +1,6 @@
 clear;
 %% ????
-video_file='CCNE1-gfp.mp4';
+video_file='CCNE1-gfp.mp4'; %'CCNE1-gfp.mp4' is the video of CCNE1 null Hela cell downloaded from the mito-check.org. For other genotypes, other filenames are input.
 video=VideoReader(video_file);
 frame_number=floor(video.Duration * video.FrameRate);
 %% ????
